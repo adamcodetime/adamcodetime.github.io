@@ -54,3 +54,41 @@ footer {
     margin-top: 40px;
     color: #6f9f6f;
 }
+/* Floating game button */
+#game-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #0f1f0f;
+    color: #8fda8f;
+    border: 2px solid #1f3d1f;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.2s ease;
+    z-index: 999;
+}
+
+#game-toggle:hover {
+    background: #162416;
+}
+
+/* Game window */
+#game-container {
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    width: 280px;
+    height: 280px;
+    background: #0d0d0d;
+    border: 2px solid #1f3d1f;
+    border-radius: 10px;
+    display: none;
+    padding: 10px;
+    z-index: 998;
+}
