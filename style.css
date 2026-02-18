@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #d4ffd4;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #0f1f0f;
+    border-bottom: 2px solid #1f3d1f;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #8fda8f;
+}
+
+.repo-list {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.repo {
+    background: #111;
+    border: 1px solid #1f3d1f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+.repo:hover {
+    background: #162416;
+    transform: translateY(-3px);
+}
+
+.repo a {
+    color: #8fda8f;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.repo a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #6f9f6f;
+}
